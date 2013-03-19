@@ -1,0 +1,310 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+	* 
+	{
+		-moz-box-sizing: border-top;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	} /* box sizing */
+
+	body
+	{
+		background: 
+		url(../images/bg-main-1.png),
+		#f8f6ec;
+	}
+	
+	footer.first-credit  a, a:visited { color: #444; text-decoration: none; outline: 0; }
+	footer.first-credit  a:hover, a:focus { color: #000; }
+	
+	a, a:visited { color: #cc6b47; text-decoration: none; outline: 0; }
+	a:hover, a:focus { color: #df683b; }
+	p a, p a:visited { line-height: inherit; }
+	
+	header h1
+	{
+		text-align: center;
+		font-size: 60px; 
+		line-height: 70px; 
+		margin-top: 20px;
+	}
+	
+	header h2
+	{
+		font-size: 17px;
+		line-height: 24px;
+		text-align: center;
+		margin-top: -10px;
+		margin-bottom: 30px;
+	}
+	
+	header a, a:hover, a:visited
+	{
+		text-decoration: none;
+		color: #181818;
+	}
+	
+	nav.primary ul,
+	nav.primary ul li
+	{
+		margin: 0px;
+		
+	}
+
+	nav.primary ul li
+	{	
+		position: relative;
+		display: inline;
+	
+	}
+	
+	nav.primary ul li a
+	{
+		display: inline-block;
+		font-size: 21px;
+		line-height: 50px;
+		color: #f4edd3;
+		font-weight: bold;
+		text-decoration: none;
+		/*letter-spacing: 0.08em;*/
+		
+	}
+	
+		nav.primary ul li a:hover
+	{
+
+		color: #f8f6ec;
+	}
+	
+	#search
+	{
+		background: #fff url(../images/search-icon.png) no-repeat 9px center;
+		width: 260px;
+		padding: 6px 4px 6px 32px;
+	}
+	
+	input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	}
+	input::-webkit-search-decoration,
+	input::-webkit-search-cancel-button {
+	display: none;
+	}
+	
+	#form-message 
+	{
+		height: 140px;
+		width: 75%;	
+	}
+	
+	
+	img.centered
+	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	.band.top
+	{	
+		background: 
+		url(../images/bg-header.png),
+		#F4EDD3;
+	}
+	
+	.band.nav
+	{	
+		background: 
+		url(../images/stitch-top.png) repeat-x left top,
+		url(../images/stitch-bot.png) repeat-x left bottom,
+		url(../images/bg-nav.png),
+		#F4EDD3;
+	}
+	
+	
+	.band.content
+	{	
+		padding-top: 28px;
+		padding-bottom: 95px;
+	}
+	
+	.band.bottom 
+	{	
+		padding: 28px 0 8px 0;
+		font-size: 14px;
+		background: 
+		url(../images/stitch-top-bot.png) repeat-x left top,
+		url(../images/bg-footer.png),
+		#BBB082;
+	}
+	
+	
+
+
+	.img.border
+	{
+		border: solid 2px #181818;
+	}
+	
+	.img.grey-border
+	{
+		border: solid 2px #434343;
+	}
+	
+	.img.white-border
+	{
+		border: solid 2px #fff;
+	}
+	
+	.img.white-border-big
+	{
+		border: solid 4px #fff;
+	}
+	
+	.img.box-shadow
+	{
+		box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+		-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+		-moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+		-o-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+		margin-bottom: 16px;
+	}
+	
+	
+	.band.books
+	{
+	}
+	
+	.band.books.one
+	{
+		padding-top: 21px;
+	}
+	
+	.book
+	{
+		text-align: center;
+		height: 495px;
+		padding-bottom: 146px;
+	}
+	
+	.book h3
+	{
+		font-size: 17px; line-height: 24px; 
+		margin-top: -10px;
+	}
+	
+	.book h4
+	{
+		font-size: 14px; line-height: 21px; 
+	}
+	
+	p.page
+	{
+		font-size: 17px;
+		line-height: 24px;
+	}
+	
+	img.article
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	#side-column img
+	{
+		border: 4px solid #fff;
+		box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+		-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+		-moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+		-o-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+		margin-bottom: 16px;
+	}
+	
+	.contact
+	{
+		font-size: 21px;
+		line-height: 30px;
+	}
+	
+	#mail
+	{
+		margin-top: 46px;
+	}
+
+
+/* #Typography
+================================================== */
+
+	body
+	{
+		font: 14px/21px "Droid Sans", Helvetica, Arial, sans-serif;
+		color: #444;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+	}
+	 
+	h1, h2, h3, h4, h5, h6
+	{
+		color: #181818;
+		font-family: "Droid Serif", "Georgia", "Times New Roman", serif;
+		font-weight: normal;
+	}
+
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
