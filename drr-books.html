@@ -29,11 +29,8 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	
-	<script src="js/jquery.placeholder.js"></script>
+
 	<script src="js/modernizr-min.js"></script>
-	<script>
-		if (!Modernizr.input.placeholder){$('input[placeholder], textarea[placeholder]').placeholder();}
-	</script>
 
 
 	<!-- Favicons
@@ -53,189 +50,164 @@
 
 	<!-- Delete everything in this .container and get started on your own site! -->
 
+	<div id="wrap">
 	
-	<div class="band top">
-		<div class="container primary">
-			<header class="sixteen columns">
-				<h1><a href="index.php">David R. Roediger</a></h1>
-				<h2><a href="index.php"><em>Professor of History and African American Studies</em></a></h2>
-			</header>
-		</div>	
-	</div>	
-	<div class="band nav">
-		<nav class="container primary">
-			<div class="sixteen columns">
-				<ul>
-					<li class="offset-by-one"><a href="#">bio</a></li>
-					<li class="offset-by-two"><a href="#">books</a></li>
-					<li class="offset-by-two"><a href="#">articles</a></li>
-					<li class="offset-by-two"><a href="#">media</a></li>
-					<li class="offset-by-two"><a href="#">contact</a></li>
-				</ul>
-			</div>
-		</nav>
-	</div><!--end band nav -->
+	<?php include('header.html'); ?>
 	
-	<div class="band books one">
-			<div class="container">
-				<h2>Authored</h2>
-				<div class="four columns book">
-						<img class="img white-border box-shadow" src="images/covers/thumbs/how-race-survived-us-history-from-settlement-and-slavery-to-the-obama-phenomenon.jpg"/>
-						<h3>How Race Survived U.S. History:</h3><h4>From Settlement and Slavery to the Obama Phenomenon</h4>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/covers/thumbs/history-against-misery.jpg"/>
-					<h3>History Against Misery</h3>
-				</div>
+	<?php include('nav.html'); ?>
+	
+	<div class="band content">
+		<div class="band books one">
+				<div class="container">
+					<h2>Authored</h2>
+					<div class="four columns book">
+							<a href="books/how-race-survived-us-history.html" class="book-link">
+							<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/how-race-survived-us-history-from-settlement-and-slavery-to-the-obama-phenomenon.jpg" alt="How Race Survived U.S. History: From Settlement and Slavery to the Obama Phenomenon" title="How Race Survived U.S. History: From Settlement and Slavery to the Obama Phenomenon"/>
+							<h3>How Race Survived U.S. History:</h3><h4>From Settlement and Slavery to the Obama Phenomenon</h4></a>
+					</div>
+					
+					<div class="four columns book">
+						<a href="books/history-against-misery.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/history-against-misery.jpg" alt="History Against Misery" title="History Against Misery" />
+						<h3>History Against Misery</h3></a>
+					</div>
 
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/covers/thumbs/working-toward-whiteness-how-americas-immigrants-became-white.jpg"/>
-					<h3>Working Toward Whiteness: </h3><h4>How America's Immigrant's Became White. The Strange Journey from Ellis Island to the Suburbs</h4>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/covers/thumbs/colored-white-transcending-the-racial-past.jpg"/>
-					<h3>Colored White: </h3><h4>Transcending the Racial Past</h4>
-				</div>
-			</div><!--end container-->	
-	</div>
-	
-	<div class="band books">
-		<div class="container">
-				<div class="four columns book">
-						<img class="img white-border box-shadow" src="images/covers/thumbs/towards-the-abolition-of-whiteness.jpg"/>
-						<h3>Towards the Abolition of Whiteness:</h3> <h4>Essays on Race, Politics, and Working Class</h4>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/covers/thumbs/the-wages-of-whiteness-race-and-the-making-of-the-american-working-class.jpg"/>
-					<h3>The Wages of Whiteness:</h3> <h4>Race and the Making of the American Working Class</h4>
-				</div>
-
-			</div><!--end container-->
-	</div>
-	
-	<div class="band books">
-		<div class="container">
-			<h2>Co-Authored</h2>
-				<div class="four columns book">
-						<img class="img white-border box-shadow" src="images/covers/thumbs/the-production-of-difference-race-and-the-management-of-labor-in-us-history.jpg"/>
-						<h3>The Production of Difference: </h3><h4>Race and The Management of Labor in U.S. History</h4>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/covers/thumbs/our-own-time-a-history-of-american-labor-and-the-working-day.jpg"/>
-					<h3>Our Own Time: </h3><h4>A History of American Labor and the Working Day</h4>
-				</div>
-		</div><!--end container-->
-	</div>
-	
-	
-	<div class="band books">
-		<div class="container">
-			<h2>Edited</h2>
-				<div class="four columns book">
-						<img class="img white-border box-shadow" src="images/covers/thumbs/haymarket-scrapbook-125th-anniversary-edition.jpg"/>
-						<h3>Haymarket Scrapbook:</h3><h4>125th Anniversary Edition</h4>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/covers/thumbs/the-big-red-song-book-250-plus-iww-songs-!.jpg"/>
-					<h3>The Big Red Songbook: </h3><h4>250-Plus IWW Songs!</h4>
-				</div>
-
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/covers/thumbs/whiteness-a-wayward-construction.jpg"/>
-					<h3>Whiteness: </h3><h4>A Wayward Construction</h4>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/covers/thumbs/john-brown.jpg"/>
-					<h3>John Brown</h3>
-				</div>
-			</div><!--end container-->
-	</div>
+					<div class="four columns book">
+						<a href="books/working-toward-whiteness.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/working-toward-whiteness-how-americas-immigrants-became-white.jpg" alt="Working Toward Whiteness: How America's Immigrant's Became White. The Strange Journey from Ellis Island to the Suburbs" title="Working Toward Whiteness: How America's Immigrant's Became White. The Strange Journey from Ellis Island to the Suburbs"/>
+						<h3>Working Toward Whiteness: </h3><h4>How America's Immigrant's Became White. The Strange Journey from Ellis Island to the Suburbs</h4></a>
+					</div>
+					
+					<div class="four columns book">
+						<a href="books/colored-white-transcending-the-racial-past.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/colored-white-transcending-the-racial-past.jpg" alt="Colored White: Transcending the Racial Past" title="Colored White: Transcending the Racial Past" />
+						<h3>Colored White: </h3><h4>Transcending the Racial Past</h4></a>
+					</div>
+				</div><!--end container-->	
+		</div>
+		
 		<div class="band books">
-		<div class="container">
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/covers/thumbs/labor-struggles-in-the-deep-south-&-other-writings.jpg"/>
-					<h3>Labor Stuggles in the Deep South & Other Writings</h3>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/covers/thumbs/black-on-white-black-writers-on-what-it-means-to-be-white.jpg"/>
-					<h3>Black on White: </h3><h4>Black Writers on What It Means to Be White</h4>
-				</div>
+			<div class="container">
+					<div class="four columns book">
+							<a href="books/towards-the-abolition-of-whiteness.html" class="book-link">
+							<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/towards-the-abolition-of-whiteness.jpg" alt="Towards the Abolition of Whiteness: Essays on Race, Politics, and Working Class History" title="Towards the Abolition of Whiteness: Essays on Race, Politics, and Working Class History"/>
+							<h3>Towards the Abolition of Whiteness:</h3> <h4>Essays on Race, Politics, and Working Class</h4></a>
+					</div>
+					
+					<div class="four columns book">
+						<a href="books/the-wages-of-whiteness.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/the-wages-of-whiteness-race-and-the-making-of-the-american-working-class.jpg" alt="The Wages of Whiteness: Race and the Making of the American Working Class" title="The Wages of Whiteness: Race and the Making of the American Working Class" />
+						<h3>The Wages of Whiteness:</h3> <h4>Race and the Making of the American Working Class</h4></a>
+					</div>
 
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/book.jpg"/>
-					<h3>Working Toward Whiteness: </h3><h4>How America's Immigrant's Became White. The Strange Journey from Ellis Island to the Suburbs</h4>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/book.jpg"/>
-					<h3>Colored White: </h3><h4>Transcending the Racial Past</h4>
-				</div>
+				</div><!--end container-->
+		</div>
+		
+		<div class="band books">
+			<div class="container">
+				<h2>Co-Authored</h2>
+					<div class="four columns book">
+						<a href="books/the-production-of-difference.html" class="book-link">
+							<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/the-production-of-difference-race-and-the-management-of-labor-in-us-history.jpg" alt="The Production of Difference: Race and the Management of Labor in U.S. History" title="The Production of Difference: Race and the Management of Labor in U.S. History" />
+							<h3>The Production of Difference: </h3><h4>Race and The Management of Labor in U.S. History</h4></a>
+					</div>
+					
+					<div class="four columns book">
+						<a href="books/our-own-time.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/our-own-time-a-history-of-american-labor-and-the-working-day.jpg" alt="Our Own Time: A History of American Labor and the Working Day" title="Our Own Time: A History of American Labor and the Working Day" />
+						<h3>Our Own Time: </h3><h4>A History of American Labor and the Working Day</h4></a>
+					</div>
 			</div><!--end container-->
+		</div>
+		
+		
+		<div class="band books">
+			<div class="container">
+				<h2>Edited</h2>
+					<div class="four columns book">
+							<a href="books/haymarket-scrapbook-125th-anniversary.html" class="book-link">
+							<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/haymarket-scrapbook-125th-anniversary-edition.jpg" alt="Haymarket Scrapbook: 125th Anniversary Edition" title="Haymarket Scrapbook: 125th Anniversary Edition" />
+							<h3>Haymarket Scrapbook:</h3><h4>125th Anniversary Edition</h4></a>
+					</div>
+					
+					<div class="four columns book">
+						<a href="books/the-big-red-songbook.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/the-big-red-song-book-250-plus-iww-songs-!.jpg" alt="The Big Red Songbook: 250-Plus IWW Songs!" title="The Big Red Songbook: 250-Plus IWW Songs!" />
+						<h3>The Big Red Songbook: </h3><h4>250-Plus IWW Songs!</h4></a>
+					</div>
+
+					<div class="four columns book">
+						<a href="books/john-brown.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/john-brown.jpg" alt="John Brown" title="John Brown" />
+						<h3>John Brown</h3></a>
+					</div>
+					
+					<div class="four columns book">
+						<a href="books/labor-struggles-in-the-deep-south.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/labor-struggles-in-the-deep-south-and-other-writings.jpg" alt="Labor Struggles in the Deep South and Other Writings" title="Labor Struggles in the Deep South and Other Writings" />
+						<h3>Labor Stuggles in the Deep South & Other Writings</h3></a>
+					</div>
+
+				</div><!--end container-->
+		</div>
+			<div class="band books">
+			<div class="container">
+
+					
+					<div class="four columns book">
+						<a href="books/black-on-white.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/black-on-white-black-writers-on-what-it-means-to-be-white.jpg" alt="Black on White: Black Writers on What It Means to Be White" title="Black on White: Black Writers on What It Means to Be White" />
+						<h3>Black on White: </h3><h4>Black Writers on What It Means to Be White</h4></a>
+					</div>
+
+					<div class="four columns book">
+						<a href="books/the-meaning-of-slavery-in-the-north.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/the-meaning-of-slavery-in-the-north.jpg" alt="The Meaning of Slavery in the North" title="The Meaning of Slavery in the North" />
+						<h3>The Meaning of Slavery in the North</h3></a>
+					</div>
+					
+					<div class="four columns book">
+						<a href="books/fellow-worker-the-life-of-fred-thompson.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/fellow-worker-the-life-of-fred-thompson.jpg" alt="Fellow Worker: The Life of Fred Thompson" title="Fellow Worker: The Life of Fred Thompson" />
+						<h3>Fellow Worker: </h3><h4>The Life of Fred Thompson</h4></a>
+					</div>
+					
+					<div class="four columns book">
+						<a href="books/haymarket-scrapbook.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/haymarket-scrapbook.jpg" alt="Haymarket Scrapbook" title="Haymarket Scrapbook"/>
+						<h3>Haymarket Scrapbook</h3></a>
+					</div>
+				</div><!--end container-->
+		</div>
+		
+		<div class="band books">
+			<div class="container">
+				<h2>Other contributions</h2>
+					<div class="four columns book">
+						<a href="books/whiteness-a-wayward-construction.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/whiteness-a-wayward-construction.jpg" alt="Whiteness: A Wayward Construction" title="Whiteness: A Wayward Construction" />
+						<h3>Whiteness: </h3><h4>A Wayward Construction</h4></a>
+					</div>
+					
+					<div class="four columns book">
+						<a href="books/the-rise-and-the-fall-of-the-white-republic.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/the-rise-and-the-fall-of-the-white-republic-class-politics-and-mass-culture-in-nineteenth-century-america.jpg" alt="The Rise and Fall of the White Republic: Class Politics and Mass Culture in Nineteenth-Century America" title="The Rise and Fall of the White Republic: Class Politics and Mass Culture in Nineteenth-Century America" />
+						<h3>The Rise and Fall of the White Republic: </h3><h4>Class Politics and Mass Culture in Nineteenth-Century America</h4></a>
+					</div>
+					
+					<div class="four columns book">
+						<a href="books/culture-gender-race-and-us-labor-history.html" class="book-link">
+						<img class="img white-border box-shadow scale-with-grid" src="images/covers/thumbs/culture-gender-race-and-us-labor-history.jpg" alt="Culture, Gender, Race, and U.S. Labor History" title="Culture, Gender, Race, and U.S. Labor History" />
+						<h3>Culture, Gender, Race, and U.S. Labor History</h3></a>
+					</div>
+
+				</div><!--end container-->
+		</div>
 	</div>
 	
-	<div class="band books">
-		<div class="container">
-			<h2>Other contributions</h2>
-				<div class="four columns book">
-						<img class="img white-border box-shadow" src="images/book.jpg"/>
-						<h5>How Race Survived U.S. History:</h5><h6>From Settlement and Slavery to the Obama Phenomenon</h6>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/book.jpg"/>
-					<h5>History Against Misery</h5>
-				</div>
-
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/book.jpg"/>
-					<h5>Working Toward Whiteness: </h5><h6>How America's Immigrant's Became White. The Strange Journey from Ellis Island to the Suburbs</h6>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/book.jpg"/>
-					<h5>Colored White: </h5><h6>Transcending the Racial Past</h6>
-				</div>
-			</div><!--end container-->
 	</div>
 	
-	<div class="band books">
-		<div class="container">
-				<div class="four columns book">
-						<img class="img white-border box-shadow" src="images/book.jpg"/>
-						<h5>How Race Survived U.S. History:</h5><h6>From Settlement and Slavery to the Obama Phenomenon</h6>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/book.jpg"/>
-					<h5>History Against Misery</h5>
-				</div>
-
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/book.jpg"/>
-					<h5>Working Toward Whiteness: </h5><h6>How America's Immigrant's Became White. The Strange Journey from Ellis Island to the Suburbs</h6>
-				</div>
-				
-				<div class="four columns book">
-					<img class="img white-border box-shadow" src="images/book.jpg"/>
-					<h5>Colored White: </h5><h6>Transcending the Racial Past</h6>
-				</div>
-			</div><!--end container-->
-	</div>
-	
-	<div class="band bottom">	
-		<footer class="container">		
-			<div class="eight columns first-credit">
-				<p>Copyright &copy; 2009 - 2013 David Roediger All Rights Reserved.</p>
-			</div><!--end eight-->
-		</footer><!-- container -->
-	</div><!--end band bottom-->
+	<?php include('bottom.html'); ?>
 
 	
 
